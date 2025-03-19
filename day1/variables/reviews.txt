@@ -1,0 +1,43 @@
+1. Cognitive complexity is 10, reduced to 4
+	public bool IsShopOpen(string day)
+{
+    if (!string.IsNullOrEmpty(day))
+    {
+        day = day.ToLower();
+        return day == "friday" || day == "saturday" || day == "sunday";
+    }
+    else
+    {
+        return false;
+    }
+}
+
+3. Cognitive complexity is 16, reduced to 7
+public long Fibonacci(int n)
+{
+    if (n >= 50)
+    {
+        throw new System.Exception("Not supported");
+    }
+
+    if (n == 0)
+    {
+        return 0;
+    }
+
+    if (n == 1)
+    {
+        return 1;
+    }
+
+    return Fibonacci(n - 1) + Fibonacci(n - 2);
+}
+
+4. Cognitive complexity is 1
+
+
+5. Cognitive complexity is 1
+
+6. Cognitive complexity is 0
+
+7. Cognitive complexity is 2
