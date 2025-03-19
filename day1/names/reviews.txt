@@ -1,0 +1,16 @@
+1. Replace the variable d with a more meaningful name to improve code readability.
+
+2. Change the variable name dataFromDb to employeeList to make it more meaningful, also don't use var, use strongly type
+
+3. Follow proper naming conventions like don't add any prefix(i,str,d)
+
+4. Follow proper naming conventions like don't add any prefix (example: p)
+
+5. Use proper naming conventions. Maintain consistency while naming  methods and class names.
+daysInMonth- Change to uppercase for consistency
+Restore_database-Change to camelCase for consistency
+animal -Change to PascalCase for class
+
+6. Use proper naming conventions. Maintain consistency while naming  methods and class names. The class Employee has two properties with unclear names. We should rename sWorkDate to StartWorkingDate and modTime to ModificationTime for better readability and understanding.
+
+7. The variable employeephone should be renamed to follow camelCase convention and be more descriptive. The parameters in the CalculateSalary method should also be renamed to be more meaningful.
